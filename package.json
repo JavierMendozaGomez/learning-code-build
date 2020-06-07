@@ -1,0 +1,22 @@
+{
+  "name": "learning-code-build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JavierMendozaGomez/learning-code-build.git",
+  "author": "javierenriquemendozagomez@gmail.com <javierenriquemendozagomez@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.6",
+    "aws-sdk": "^2.691.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.53",
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  }
+}
