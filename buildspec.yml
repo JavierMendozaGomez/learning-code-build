@@ -5,7 +5,7 @@ phases:
             nodejs: 12.x
         commands:
             - node -v
-            - sudo npm install yarn -g
+            - npm install yarn -g
             - yarn install
     pre_build:
         commands:
