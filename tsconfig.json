@@ -1,0 +1,15 @@
+
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "lib": ["dom", "es2015", "es2016", "es2017", "esnext"],
+      "allowSyntheticDefaultImports": true,
+      "target": "es2015",
+      "rootDirs": [
+        "src/**"
+      ],
+      "outDir": "dist",
+      "moduleResolution": "node",
+    },
+    "exclude": ["**/*.test.ts", "**/*.spec.ts", "dist"]
+}

@@ -6,7 +6,8 @@
   "author": "javierenriquemendozagomez@gmail.com <javierenriquemendozagomez@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "dependencies": {
     "aws-lambda": "^1.0.6",
